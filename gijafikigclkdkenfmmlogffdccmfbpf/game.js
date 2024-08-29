@@ -92,7 +92,7 @@ var theoKzObjects = {
   'FB_UserID': '',
   'smoothCamera': 0.5,
   'eat_animation': 0.0025,
-  'flag': "https://i.imgur.com/EkbSd65.png",
+  'flag': "https://imgur.com/a/ukLHrwb.png",
   'PortionSize': localStorage['PotenciadorSize'] || 0x2,
   'PortionAura': localStorage['PotenciadorAura'] || 1.2,
   'PortionTransparent': 0.8,
@@ -400,8 +400,8 @@ ctx["containerCountInfo"]["addChild"](ctx["value2_hs"]);
 ctx["containerCountInfo"]['addChild'](ctx["label_kill"]);
 ctx["containerCountInfo"]["addChild"](ctx["value1_kill"]);
 ctx["containerCountInfo"]["addChild"](ctx["value2_kill"]);
-ctx['imgServerbase'] = PIXI['Texture']["fromImage"]("https://i.imgur.com/EkbSd65.png");
-ctx["borderurl"] = PIXI["Texture"]["fromImage"]("https://i.imgur.com/wYJAfmO0.png");
+ctx['imgServerbase'] = PIXI['Texture']["fromImage"]("https://imgur.com/a/ukLHrwb.png");
+ctx["borderurl"] = PIXI["Texture"]["fromImage"]("https://imgur.com/a/ukLHrwb.png");
 ctx["onclickServer"] = PIXI["Texture"]["fromImage"](theoKzObjects["flag"]);
 ctx["containerImgS"] = new PIXI["Sprite"](ctx['imgServerbase']);
 ctx["containerImgS"]["anchor"]["set"](0.5);
@@ -1466,7 +1466,7 @@ window["addEventListener"]('load', function () {
       _0x238da8["VELOCITY_TYPE"] = 0x0;
       _0x238da8['FLEXIBLE_TYPE'] = 0x1;
       _0x238da8["MAGNETIC_TYPE"] = 0x2;
-      _0x238da8["ZOOM_TYPE"] = 0x6;
+      _0x238da8["ZOOM_TYPE"] = 0x7;
       _0x238da8["X2_TYPE"] = 0x3;
       _0x238da8['X5_TYPE'] = 0x4;
       _0x238da8["X10_TYPE"] = 0x5;
@@ -4185,7 +4185,7 @@ window["addEventListener"]('load', function () {
             if (_0x4f01c4 && _0x4f01c4["code"] === 0x5cd && _0x4f01c4["error"] === "expired_token") {
               _0x1551ac++;
               console["log"]("auto login attempt:", _0x1551ac);
-              $("#login-view")["html"]("<h2>Auto Login Google Wormate Friends Turkey : " + _0x1551ac + "</h2>");
+              $("#login-view")["html"]("<h2>Auto Login Google: " + _0x1551ac + "</h2>");
               _0x5cf0e1();
             } else {
               _0x1ce9e0(_0x4f01c4);
@@ -4202,7 +4202,7 @@ window["addEventListener"]('load', function () {
             if (_0x578dcf && _0x578dcf["code"] === 0x5cd && _0x578dcf["error"] === "expired_token") {
               _0x1551ac++;
               console['log']("auto login attempt:", _0x1551ac);
-              $('#login-view')['html']("<h2>Auto Login Google Wormate Friends Conncet : " + _0x1551ac + "</h2>");
+              $('#login-view')['html']("<h2>Auto Login Google : " + _0x1551ac + "</h2>");
               _0x5cf0e1();
             } else {
               _0x1ce9e0(_0x578dcf);
@@ -4250,7 +4250,7 @@ window["addEventListener"]('load', function () {
               var _0x1cea18 = clientes['clientesActivos'][_0x50217a]["cliente_DateExpired"];
               if (theoKzObjects["FB_UserID"] == 0x0) {} else {
                 if (theoKzObjects["FB_UserID"] == _0x456093) {
-                  $(".column-left")["append"]("<div class='het-han'> Aktivasyon Tarihi : " + _0x1cea18 + '</div>');
+                  $(".column-left")["append"]("<div class='het-han'> Data de ativação : " + _0x1cea18 + '</div>');
                   _0x4f10c0();
                   _0x42f088();
                 } else {}
@@ -5487,8 +5487,8 @@ window["addEventListener"]('load', function () {
         });
         this['vk']();
         this['wk']();
-        $("#final-continue")["html"]("\n                         <div id=\"final-continue1\">Anasayfa(Home)</div>\n                         ");
-        $("#final-continue")['after']("<div id='final-replay'>Tekrar BaÅŸla</div>");
+        $("#final-continue")["html"]("\n                         <div id=\"final-continue1\">Back Home</div>\n                         ");
+        $("#final-continue")['after']("<div id='final-replay'>Respawn</div>");
         $("#final-replay")["click"](function () {
           let _0x3b6ff3 = hoisinhnhanh;
           if (_0x3b6ff3) {
@@ -6475,7 +6475,7 @@ window["addEventListener"]('load', function () {
           let _0x3e7d08 = _0x1fd68a(this['nl']['name']);
           if (this['nl']["img"]) {
             var _0x49a114 = "<img src=\"";
-            _0x49a114 = _0x49a114 + "https://wormatefriendsturkey.com" + "/images/paths/" + this['nl']["img"];
+            _0x49a114 = _0x49a114 + "https://wormate.io" + "/images/paths/" + this['nl']["img"];
             _0x3e7d08 = _0x49a114 = _0x49a114 + "\" height=\"43\" width=\"220\" />";
           }
           return _0x3e7d08;
@@ -7358,7 +7358,7 @@ _0x415064 += `
       }
     };
     var _0x5cf835 = function () {
-      $('#mm-event-text')["replaceWith"]("<div class=\"text-vnxx\"><a href=\"https://www.wormatefriendsturkey.com\">Wormate Friends Turkey 2024</a></div>");
+      $('#mm-event-text')["replaceWith"]("<div class=\"text-vnxx\"><a href=\"https://www.wormate.io\">Wormate Extension 2024</a></div>");
       $(".column-right")["append"]("\n          \n          <div class=\"id\">\n         <input type=\"text\" value=\"" + theoKzObjects['FB_UserID'] + "\" class=\"you-idd\" />\n          \n          \n          ");
       $("#mm-store").after(`
         <div id="mm-store" style="float: right; position: relative; margin-right: 10px; min-width: 140px;">
@@ -7376,7 +7376,7 @@ _0x415064 += `
               <button class="close-button" onclick="closePopup()">Kapat</button>
               <div id="kich-hoat">
                 ID: <input type="text" value="${theoKzObjects['FB_UserID']}" class="you-id" />
-                <button class="you-id-copy" onclick="navigator.clipboard.writeText('${theoKzObjects['FB_UserID']}').then(() => alert('Your ID ${theoKzObjects['FB_UserID']} KopyalandÄ±!'));">
+                <button class="you-id-copy" onclick="navigator.clipboard.writeText('${theoKzObjects['FB_UserID']}').then(() => alert('Your ID ${theoKzObjects['FB_UserID']} Copied!'));">
                   COPY
                 </button>
               </div>
@@ -7386,7 +7386,7 @@ _0x415064 += `
                     <td>
                       <div class="settings-lineZoom">
                         <span class="settings-labelZoom">
-                          <i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #0d7aef; font-size: 22px;"></i> Yetenek Yeme HÄ±zÄ±:
+                          <i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #0d7aef; font-size: 22px;"></i> Velocidade de alimentação de habilidade:
                         </span>
                         <input class="settings-switchZoom" id="settings-Abilityzoom-switch" type="checkbox"/>
                         <label for="settings-Abilityzoom-switch"></label>
@@ -7395,7 +7395,7 @@ _0x415064 += `
                     <td>
                       <div class="settings-lineZoom">
                         <span class="settings-labelZoom">
-                          <i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #0d7aef; font-size: 22px;"></i> Streamer Modu:
+                          <i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #0d7aef; font-size: 22px;"></i> Streamer Mode:
                         </span>
                         <input class="settings-switchZoom" id="settings-stremingmode-switch" type="checkbox"/>
                         <label for="settings-stremingmode-switch"></label>
@@ -7404,7 +7404,7 @@ _0x415064 += `
                     <td>
                       <div class="settings-lineZoom">
                         <span class="settings-labelZoom">
-                          <i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #0d7aef; font-size: 22px;"></i> Toplam HS Kaydet:
+                          <i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #0d7aef; font-size: 22px;"></i> Save HS:
                         </span>
                         <input class="settings-switchZoom" id="settings-stremingmodesaveheadshot-switch" type="checkbox"/>
                         <label for="settings-stremingmodesaveheadshot-switch"></label>
@@ -7415,7 +7415,7 @@ _0x415064 += `
                     <td>
                       <div class="settings-lineZoom">
                         <span class="settings-labelZoom">
-                          <i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #0d7aef; font-size: 22px;"></i> 3 Top Score AÃ§:
+                          <i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #0d7aef; font-size: 22px;"></i> 3 Top Score:
                         </span>
                         <input class="settings-switchZoom" id="settings-stremingmodebatop-switch" type="checkbox"/>
                         <label for="settings-stremingmodebatop-switch"></label>
@@ -7424,7 +7424,7 @@ _0x415064 += `
                     <td>
                       <div class="settings-lineZoom">
                         <span class="settings-labelZoom">
-                          <i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #0d7aef; font-size: 22px;"></i> Emoji Kapat:
+                          <i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #0d7aef; font-size: 22px;"></i> Emojis:
                         </span>
                         <input class="settings-switchZoom" id="settings-stremingmodeemoj-switch" type="checkbox"/>
                         <label for="settings-stremingmodeemoj-switch"></label>
@@ -7433,7 +7433,7 @@ _0x415064 += `
                     <td>
                       <div class="settings-lineZoom">
                         <span class="settings-labelZoom">
-                          <i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #0d7aef; font-size: 22px;"></i> Headshot Sesi Kapat:
+                          <i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #0d7aef; font-size: 22px;"></i> Headshot Som:
                         </span>
                         <input class="settings-switchZoom" id="settings-stremingmodeheadshot-switch" type="checkbox"/>
                         <label for="settings-stremingmodeheadshot-switch"></label>
@@ -7497,11 +7497,11 @@ _0x415064 += `
             <button style="height: 25px; float: right; margin-top: -24px; margin-right: -6px; line-height: 1.2; font-size: 14px;" onclick="navigator.clipboard.writeText('${theoKzObjects['FB_UserID']}').then(() => alert('Your ID ${theoKzObjects['FB_UserID']} copied!'));">Kopyala</button>
             <center>
               <div class="hg">
-                <a target="_blank" href="https://wormatefriendsturkey.com/">Aktivasyon</a>
+                <a target="_blank" href="https://wormate.io/">Ativacao</a>
               </div>
             </center>
             <i class="fa fa-book" aria-hidden="true" style="color: #48ff00;"></i>
-            <a style="color: #2ae1eb; font-weight: 600;" href="https://discord.gg/8zkCYgF6">Aktivasyon linki iÃ§in tÄ±klayÄ±n.</a>
+            <a style="color: #2ae1eb; font-weight: 600;" href="https://discord.gg/loi">Ativacao inativa</a>
           </div>
         </div>
       `);      
@@ -7538,7 +7538,7 @@ _0x415064 += `
         <div class="vietnam" style="display: grid !important; grid-template-columns: 1fr 1fr 1fr; gap: 8.5px;">
           <input type="button" value="TAM EKRAN" class="fullscreen_button">
           <input type="button" value="TEKRAR" id="hoisinh" class="fullscreen_respawn">
-          <input type="button" value="Ä°LETÄ°ÅžÄ°M" onclick="window.location.href='https://api.whatsapp.com/send?phone=+905544655080&text=Merhaba%20Aktivasyon%20YaptÄ±rmak%20Ä°stiyorum!%20Id%20Ä°smim%20bu.'" class="fullscreen_contact">
+          <input type="button" value="Ä°LETÄ°ÅžÄ°M" onclick="window.location.href='https://wormate.io/.'" class="fullscreen_contact">
 
           </div>
       `);
@@ -7745,7 +7745,7 @@ _0x415064 += `
             </div>
             <div class="list1">
               <i class="fa fa-book" aria-hidden="true" style="color: #48ff00;"></i>
-              <a href="https://discord.gg/8zkCYgF6">Aktivasyon linki iÃ§in tÄ±klayÄ±nÄ±z.</a>
+              <a href="https://discord.gg/loi">Ativacao inativa</a>
             </div>
           </div>
         </div>
@@ -7765,24 +7765,24 @@ _0x415064 += `
           </button>
         </div>
       `);
-      window['multiplier'] = 0.625;
+      window['multiplier'] = 1;
       window["zoomLevel"] = 0x5;
       function _0x549265() {
         window["zoomLevel"]++;
-        window['multiplier'] *= 0.8;
+        window['multiplier'] *= 1;
         changedNf();
         _0x5ca09a();
       }
       function _0x392490() {
         if (window["zoomLevel"] > 0x0) {
           window['zoomLevel']--;
-          window["multiplier"] /= 0.8;
+          window["multiplier"] /= 1;
           changedNf();
           _0x5ca09a();
         }
       }
       function _0x5ca09a() {
-        var _0x600965 = Math['round'](window["multiplier"] / 0.625 * 0x64);
+        var _0x600965 = Math['round'](window["multiplier"] / 1 * 0x64);
         _0x600965 = Math["min"](0x64, _0x600965);
         var _0x262e01 = document["getElementById"]("zoom-percentage");
         _0x262e01['textContent'] = _0x600965 + '%';
