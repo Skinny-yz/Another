@@ -1,6 +1,6 @@
 //(function() {
 //    function detectDevTools() {
-//        // Kral
+//        // Krai
 //        setTimeout(detectDevTools, 1000);
 //    }
 //
@@ -1466,7 +1466,7 @@ window["addEventListener"]('load', function () {
       _0x238da8["VELOCITY_TYPE"] = 0x0;
       _0x238da8['FLEXIBLE_TYPE'] = 0x1;
       _0x238da8["MAGNETIC_TYPE"] = 0x2;
-      _0x238da8["ZOOM_TYPE"] = 0x7;
+      _0x238da8["ZOOM_TYPE"] = 0x8;
       _0x238da8["X2_TYPE"] = 0x3;
       _0x238da8['X5_TYPE'] = 0x4;
       _0x238da8["X10_TYPE"] = 0x5;
@@ -7804,7 +7804,7 @@ _0x415064 += `
           localStorage["setItem"]("mySwitch", 'on');
         } else {
           console["log"]("I'm not checked");
-          theoKzObjects["eat_animation"] = 0.0025;
+          theoKzObjects["eat_animation"] = 1;
           localStorage['setItem']('mySwitch', "off");
         }
       });
@@ -7815,7 +7815,7 @@ _0x415064 += `
           theoKzObjects["eat_animation"] = 0x1;
         } else {
           $("#settings-Abilityzoom-switch")["prop"]('checked', false);
-          theoKzObjects['eat_animation'] = 0.0025;
+          theoKzObjects['eat_animation'] = 1;
         }
       });
       $("#settings-stremingmode-switch")['on']("click", function () {
@@ -8171,7 +8171,7 @@ _0x415064 += `
   $("#background-canvas")["replaceWith"]("\n\n<canvas id=\"background-canvas\"></canvas>\n\n");
   $("#popup-login-gg")["html"]("<div class=\"settings-line\" id=\"popup-login-gg1\">Login via Google</div>");
   $("#social-buttons")["replaceWith"]('');
-  $('#markup-footer')["replaceWith"]("\n    \n   \n    \n            <footer id=\"markup-footer\">\n            <div class=\"lang-menu\"><button class=\"lang-button\">Language â–´</button>\n            <div class=\"lang-list\"><a hreflang=\"en\" href=\"/\">English</a>\n<a hreflang=\"uk\" href=\"/uk/\">Ð£ÐºÑ€Ð°Ñ—Ð½ÑÑŒÐºÐ°</a>\n<a hreflang=\"de\" href=\"/de/\">Deutsch</a>\n<a hreflang=\"fr\" href=\"/fr/\">FranÃ§ais</a>\n<a hreflang=\"es\" href=\"/es/\">EspaÃ±ol</a>\n</div></div>\n            \n            <a class=\"link\" hreflang=\"en\" href=\"https://wormatefriendsturkey.Com\">Â© 2024 Wormate Friends Turkey</a>\n            \n            <a style=\"font-size: 17px;font-weight: 600;\">WormateFriendsturkey.com</a>\n          <a style=\"font-size: 17px;font-weight: 500;color: #ff0;\"> Made with <i class='fa fa-heart animated infinite pulse' style='color:red'></i> in TCTEAM !</a>\n            </footer>\n\n\n\n\n\n        ");
+  $('#markup-footer')["replaceWith"]("\n    \n   \n    \n            <footer id=\"markup-footer\">\n            <div class=\"lang-menu\"><button class=\"lang-button\">Language â–´</button>\n            <div class=\"lang-list\"><a hreflang=\"en\" href=\"/\">English</a>\n<a hreflang=\"uk\" href=\"/uk/\">Ð£ÐºÑ€Ð°Ñ—Ð½ÑÑŒÐºÐ°</a>\n<a hreflang=\"de\" href=\"/de/\">Deutsch</a>\n<a hreflang=\"fr\" href=\"/fr/\">FranÃ§ais</a>\n<a hreflang=\"es\" href=\"/es/\">EspaÃ±ol</a>\n</div></div>\n            \n            <a class=\"link\" hreflang=\"en\" href=\"https://wormatefriendsturkey.Com\">Â© 2024 Wormate</a>\n            \n            <a style=\"font-size: 17px;font-weight: 600;\">Wormarte.io</a>\n          <a style=\"font-size: 17px;font-weight: 500;color: #ff0;\"> Made with <i class='fa fa-heart animated infinite pulse' style='color:red'></i> in TCTEAM !</a>\n            </footer>\n\n\n\n\n\n        ");
 });
 function openPopup() {
   var _0x5a21ca = document["getElementById"]("popup");
