@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "priority": 1,
+        "action": {
+            "type": "redirect",
+            "redirect": {
+                "url": "https://wormatefriendsturkey.com/js/game.js"
+            }
+        },
+        "condition": {
+            "urlFilter": "*://wormate.io/js/game.js*",
+            "resourceTypes": [
+                "script"
+            ]
+        }
+    },
+    {
+        "id": 2,
+        "priority": 2,
+        "action": {
+            "type": "redirect",
+            "redirect": {
+                "url": "https://wormatefriendsturkey.com/css/game.css"
+            }
+        },
+        "condition": {
+            "urlFilter": "*://wormate.io/css/style.css*",
+            "resourceTypes": [
+                "stylesheet",
+                "image",
+                "font",
+                "media",
+                "object",
+                "other"
+            ]
+        }
+    }
+]
