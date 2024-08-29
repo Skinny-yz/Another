@@ -1,6 +1,6 @@
 //(function() {
 //    function detectDevTools() {
-//        // Kral yanlÄ±ÅŸ yoldasÄ±n geri dÃ¶n :) (Sen gelirken yÄ±ldo gidiyordu :))
+//        // Kral
 //        setTimeout(detectDevTools, 1000);
 //    }
 //
